@@ -1,0 +1,314 @@
+Here is the corrected CSS code:
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background: linear-gradient(to top, rgb(221, 7, 192), rgb(2, 6, 255));
+  background-size: 300% 100%;
+  transition: all 1.2s;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* navbar */
+header {
+  top: 0px;
+  width: 100%; /* Changed from 60% to 100% */
+  box-shadow: rgba(151, 15, 230, 0.3) 0px 2px 5px;
+}
+
+.navbar {
+  width: 101%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to top, rgb(248, 5, 215), rgb(50, 2, 223));
+  background-size: 100% 200%;
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+}
+
+.brand {
+  font-size: 41px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 0px;
+  color: rgb(250, 241, 241);
+  text-decoration: none;
+}
+
+.cols {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-right: 8px;
+}
+
+.cols a {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0px;
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+/* navbar end */
+
+.mark {
+  position: relative;
+  width: 100%;
+  margin-top: 45px;
+  padding: 120px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  position: relative;
+  padding-left: 75px;
+  flex-direction: column;
+  margin-bottom: 201px;
+}
+
+.col1 p {
+  color: rgb(255, 255, 255);
+  font-size: 39px;
+  font-weight: 600;
+  margin-bottom:-34px;
+}
+
+
+.col1 h1 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.col1 h2 {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0px;
+}
+.info p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+  font-size:15px;
+  text-align: justify;
+  margin-right:62px;
+}
+
+.work {
+  display: inline;
+  width: 70px;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.works a {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: rgb(51, 4, 224);
+  padding: 13px 16px;
+  background: rgb(178, 173, 173);
+  border-width: 2px;
+  border-color: transparent;
+  margin-top: 10px;
+}
+.markimage {
+  width: 175px;
+  margin-right: 33%;
+  margin-top: -7%%;
+}
+
+
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.col2 img {
+  width: 134%;
+  margin-left: 2%;
+}
+
+.col3 {
+  gap: 3px;
+  margin-left: 4%;
+}
+
+.col3 p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
+  max-width: 57%; /* Changed from width to max-width */
+  height: auto;
+  text-align: justify;
+}
+
+.col3 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(204, 219, 214);
+  padding: 1%;
+}
+
+.col3 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 6%;
+}
+
+#worth {
+  text-align: center;
+  font-size: 45px;
+  color: whitesmoke;
+  font-weight:400;
+}
+#net{
+  margin: top 6px;;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 30px;
+}
+.accomplishment {
+  padding: 45px 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgb(204, 219, 214);
+}
+.h3{
+  text-align: center;
+  color: rgb(255, 253, 253);
+  font-size:40px;
+}
+.timeline{
+  display:flex;
+  margin-top: 5px;
+
+}
+.time{
+  width: 400px;
+  height: 170px;
+  border: 2px ridge;
+  margin: 3px;
+  margin-left: 7px;
+  border-radius: 10px;
+  background:linear-gradient( to top, rgb(248, 5, 215), rgb(19, 2, 80));
+  background-size:100% 200%;
+  transition: all 1.2s;
+}
+
+.time:hover {
+  background-position:bottom;
+  box-shadow: 4px 6px 10px rgb(19, 237, 190);
+
+}
+.time h3{
+  text-align: center;
+  text-decoration:none;
+  font-size: 20px;
+  color: rgb(4, 217, 255);
+}
+.time p{
+  text-align: justify;
+  padding: 10px;
+  font-weight: 300;
+  color: aliceblue;
+}
+.Quotes{
+  text-align: center;
+  color: aliceblue;
+  font-size: 30px;
+}
+#R{
+  width:500px;
+    border-radius: 66px;
+  }
+#R{
+  display: block;
+  margin: 0 auto;
+}
+.videos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+  
+  .video-container {
+  margin: 20px;
+  width: calc(33.33% - 40px);
+  }
+  
+  .video-container iframe {
+  border: none;
+  width: 100%;
+  height:150px;
+  border-radius: 10px; 
+  }
+.Gallery{
+  color: aliceblue;
+  font-size: 30px;
+}
+footer {
+  color:aliceblue;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  .footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  
+  .footer-content p {
+  margin-bottom: 10px;
+  }
+  
+  .footer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  }
+  
+  .footer-content li {
+  margin-right: 20px;
+  }
+  
+  .footer-content a {
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+color:aliceblue;
+}  
+.footer i {
+  margin-right: 5px;
+  font-size: 18px;
+  vertical-align: middle;
+  }
